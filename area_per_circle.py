@@ -19,7 +19,7 @@ def main():
     units = input("Enter the unit of measurement (e.g., cm, m, in): ").strip()
 
     # Calculate Area: A = π * r^2
-    area = math.pi * (radius**2)
+    area = math.pi * (radius ** 2)
 
     # Calculate Circumference / Perimeter: C = 2 * π * r
     circumference = 2 * math.pi * radius
